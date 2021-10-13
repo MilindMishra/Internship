@@ -56,4 +56,4 @@ Q.15. Write a python program to print the frequency of each of the characters pr
 from collections import Counter
 freq_char = input("Enter the string : ")
 res = Counter(freq_char)
-print ("Flip Robo Technology :\n "+ str(res))
+print (freq_char," :\n "+ str(res))
